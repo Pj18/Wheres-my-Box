@@ -1,7 +1,11 @@
 # Wheres-my-Box
 
-Project for i_Hack 2019 by our team <b>skilled_noobs</b>.
-This project converts a pgm image to 2-D array and then finds the coordinates of all the objects(square and rectangele) that the user enters.
+Project for I_Hack 2019 by our team <b>skilled_noobs</b>.
+# Problem Statement
+Development of visual tool to identify objects in a Robot SLAM map. USer have an option to select the type of object (standard objects like square or rectangle). In the given map white represents empty space and black represents obstacles/filled space. 
+
+# Approach
+In this project we input a PGM(Portable Grey Map) file which is further converted into a 2D matrix which is feeded into our algorithim written in C++ which segregates objects and after that in frontend we take input from user that which object does they want to search for with its dimensions ,further if those objects are present our program shows the coordinates of the object present.
 
 Team members:<br/>
 <a href = "https://github.com/Pj18"> Punit Jain </a><br/>
